@@ -1,1 +1,3 @@
-init
+# Carrot Market Clone
+
+* skip tailwindCSS
