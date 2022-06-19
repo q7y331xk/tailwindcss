@@ -54,10 +54,10 @@ const Home: NextPage = () => {
           <div  className='font-medium text-xl'>Swoon Lounge</div>
           <div className='text-xs text-gray-500'>Chair</div>
           <div className='mt-3 mb-5 flex justify-between items-center'>
-            <div>
-              <input type="radio" />
-              <input type="radio" />
-              <input type="radio" />
+            <div className='flex space-x-3'>
+              <button className='w-5 h-5 rounded-full bg-yellow-500 hover:bg-yellow-900 hover:ring-2 ring-offset-2 transition'></button>
+              <button className='w-5 h-5 rounded-full bg-indigo-500'></button>
+              <button className='w-5 h-5 rounded-full bg-teal-500'></button>
             </div>
             <div className='flex items-center space-x-5'>
               <button className='rounded-lg bg-blue-200 flex justify-center items-center aspect-square w-8 text-xl text-gray-500'>-</button>
